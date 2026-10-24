@@ -2,6 +2,10 @@
 
 A complete, responsive, full-stack web application for salon service discovery and online appointment booking. Built with **React (Vite)**, **Node.js/Express**, and **MongoDB Atlas** for Full Stack Development skill exams and portfolio demonstrations.
 
+> 🌐 **Live Web Application (GitHub Pages):** [https://adeenaahh.github.io/salon-booking-appointment/](https://adeenaahh.github.io/salon-booking-appointment/)  
+> 📦 **GitHub Repository:** [https://github.com/Adeenaahh/salon-booking-appointment](https://github.com/Adeenaahh/salon-booking-appointment)  
+> 👤 **Author & Owner:** [Adeenaahh](https://github.com/Adeenaahh)
+
 ---
 
 ## Table of Contents
