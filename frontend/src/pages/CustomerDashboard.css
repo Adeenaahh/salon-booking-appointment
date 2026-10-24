@@ -1,0 +1,122 @@
+.customer-dashboard {
+  background-color: var(--color-cream-bg);
+  min-height: calc(100vh - 4.5rem);
+}
+
+.dashboard-header {
+  padding: 2.25rem;
+  background: #FFFFFF;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.greeting-eyebrow {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--color-rose-dark);
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.dashboard-header h2 {
+  font-size: 2rem;
+  margin-bottom: 0.35rem;
+}
+
+.header-stats {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.stat-pill {
+  background-color: var(--color-blush-pink);
+  padding: 0.5rem 1.25rem;
+  border-radius: var(--radius-md);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-value {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-rose-dark);
+  line-height: 1;
+}
+
+.stat-title {
+  font-size: 0.72rem;
+  color: var(--color-plum-text);
+  font-weight: 600;
+}
+
+.dashboard-tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 0.5rem;
+}
+
+.dash-tab {
+  padding: 0.6rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: var(--radius-full);
+  color: var(--color-text-muted);
+  transition: all var(--transition-fast);
+}
+
+.dash-tab:hover {
+  color: var(--color-rose-primary);
+  background-color: var(--color-blush-pink);
+}
+
+.dash-tab.active {
+  background-color: var(--color-rose-primary);
+  color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(200, 125, 133, 0.3);
+}
+
+.dashboard-empty {
+  padding: 4rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.empty-flower {
+  font-size: 3rem;
+}
+
+.empty-auth-state {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 3.5rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.empty-auth-icon {
+  font-size: 3rem;
+}
+
+.empty-auth-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
